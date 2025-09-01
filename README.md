@@ -1,59 +1,87 @@
-# AgendaWeb
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+# **Agenda Web - Aplicação Completa de Gestão de Agenda**
+Bem-vindo ao **Agenda Web**, uma aplicação moderna e eficiente que permite o gerenciamento de compromissos e eventos de forma ágil e intuitiva. Este projeto é composto por três partes principais:
 
-## Development server
+1. **Frontend**: Desenvolvido em **Angular**, com uma interface interativa e responsiva.
+2. **Backend**: API RESTful construída com Java (Spring Boot), que fornece as operações necessárias para o gerenciamento dos dados.
+3. **Banco de Dados**: Sistema robusto de banco de dados (relacional) utilizado para armazenar todos os dados de usuários, compromissos e eventos.
 
-To start a local development server, run:
+### **O Que Você Vai Encontrar Aqui?**
 
-```bash
-ng serve
-```
+- **Frontend**: Uma aplicação Angular que permite ao usuário interagir com o sistema de agenda diretamente.
+- **Backend**: A API foi construída com Spring Boot e contém endpoints para criação, leitura, atualização e exclusão de compromissos.
+- **Banco de Dados**: Um banco de dados que armazena dados essenciais para o funcionamento da aplicação.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+![image](https://github.com/user-attachments/assets/50b05493-885b-4fcf-8f0d-fa65bec97dc9)
+![image](https://github.com/user-attachments/assets/54450f53-1076-4fc6-a28c-6eb7bdb2e9f7)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## Tecnologias Utilizadas
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- **Frontend**: 
+  - **Angular**: Framework utilizado para criar uma interface interativa e fluida.
+  - **TypeScript**: Garantindo a escalabilidade e confiabilidade do código.
+  - **HTML/CSS**: Estrutura e design responsivos.
 
-```bash
-ng generate --help
-```
+- **Backend**:
+  - **Spring Boot**: Framework que facilita o desenvolvimento de APIs robustas em Java.
+  - **Swagger**: Documentação interativa para a API, tornando fácil o teste de endpoints diretamente no navegador.
 
-## Building
+- **Banco de Dados**:
+  - **MySQL/PostgreSQL**: Banco de dados relacional para armazenar os dados da agenda.
 
-To build the project run:
+FrontEnd : Disponível em **http://localhost:4200/**.
+BackEnd : Disponível em **http://localhost:8081/**.
 
-```bash
-ng build
-```
+### 3. **Banco de Dados**
+Você pode usar as configurações padrão ou ajustar o arquivo `application.properties` para corresponder ao seu banco de dados.
+![image](https://github.com/user-attachments/assets/8195160b-8ae9-4d1e-bb9a-cba1d1188efc)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## Funcionalidades
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### **Frontend (Angular)**:
+- Visualização de compromissos e eventos agendados.
+- Criação, edição e exclusão de compromissos.
+- Interface limpa e intuitiva para o usuário.
+- Responsividade para uma experiência de usuário otimizada em dispositivos móveis.
 
-```bash
-ng test
-```
+### **Backend (Spring Boot)**:
+- API RESTful para manipulação de dados de agenda.
+- Endpoints para:
+  - `GET /api/compromissos`: Listar todos os compromissos.
+  - `POST /api/compromissos`: Criar um novo compromisso.
+  - `PUT /api/compromissos/{id}`: Atualizar um compromisso existente.
+  - `DELETE /api/compromissos/{id}`: Excluir um compromisso.
 
-## Running end-to-end tests
+  **A documentação dos endpoints está disponível via Swagger** em: 
+  - **[Swagger UI](http://localhost:8081/swagger-ui/index.html#)**
 
-For end-to-end (e2e) testing, run:
+### **Banco de Dados**:
+- Armazena dados relacionados a compromissos, usuários e eventos.
+- Relacionamento entre usuários e seus compromissos agendados.
 
-```bash
-ng e2e
-```
+## URLs Importantes
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- **Frontend (Angular)**: [http://localhost:4200/](http://localhost:4200/)  
+- **Swagger UI (Backend)**: [http://localhost:8081/swagger-ui/index.html#](http://localhost:8081/swagger-ui/index.html#)
 
-## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+👨‍💻 Autor
+Feito por Kaio Muniz durante o curso de Spring Boot Web Developer na COTI.
+
+
+---
+
+## Contato
+
+Para dúvidas ou sugestões, entre em contato:  
+- kkaioribeiro@gmail.com
+- https://www.linkedin.com/in/kaiomuniz/
+
+---
